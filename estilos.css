@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+.cover{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: url(https://cdn.glitch.com/aeaa6cb0-a6f5-414d-bc61-63bbdf09e441%2Frsz_thomas-jarrand-t5vzkeveqwi-unsplash.jpg?v=1627948951913);
+    background-size: cover;
+    background-position:center;
+}
+
+.cover h1  {
+    font-family: 'Teko', sans-serif;
+}
+.cover p{
+    font-family: 'Teko', sans-serif;
+}
+
+
+.imagen{
+    width: 450px;
+    height: 400px;
+}
+
+
+.formulario label input{
+    outline: none;
+    width: 25rem;
+}
+#boton{
+    height: 30px;
+    width: 90px;
+    margin-left: 20px;
+}
+
+.responsive-iframe{
+    position: relative;
+    padding-top: 2.26%;
+}
+.responsive-iframe iframe{
+    position: adsolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 300px;
+
+
+}
